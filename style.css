@@ -254,7 +254,7 @@ footer {
 
 /* Media queries */
 
-@media (min-width: 321px) {
+@media (min-width: 577px) {
 
     /* Home */
     .main-title h1 {
@@ -314,7 +314,7 @@ footer {
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
 
     /* Home */
     .main-title {
@@ -323,13 +323,13 @@ footer {
     }
 
     .main-title h1:first-child {
-        font-size: 3rem;
+        font-size: 5rem;
         margin: 0;
         
     }
 
     .main-title h1:last-child {
-        font-size: 7rem;
+        font-size: 10rem;
         line-height: 0.9;
         margin: 0;
     }
@@ -352,7 +352,7 @@ footer {
     }
 
     .about-img {
-        width: 300px;
+        width: 100%;
     }
 
     .about-text {
